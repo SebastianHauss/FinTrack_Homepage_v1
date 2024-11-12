@@ -9,9 +9,10 @@
 }
 
 body {
-  background-color: #212529;
-  min-height: 2000px;
+  background-color: #080710;
+  min-height: 100vh;
   padding: 0.8rem;
+  overflow-x: hidden;
 }
 
 header {
@@ -26,12 +27,6 @@ header {
   backdrop-filter: blur(50px);
 } 
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 main {
   margin-top: 100px; /* add some margin to the top of the main content */
   color: white;
@@ -44,6 +39,8 @@ td {
 
 #FinTrack {
   color: white;
+  font-size: 1.6rem;
+  padding-left: 0.8rem;
 }
 
 #td-grow {
@@ -58,4 +55,80 @@ td {
 .cyber-earth {
   width: 250px;
   height: auto;
+  margin: 10px;
+}
+
+
+/* CSS */
+.button-86 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
