@@ -99,8 +99,8 @@ h3 { margin-bottom: 0.75rem; }
 #strich-icon {
   margin: 0;
   padding: 0;
-  height: 200px;
-  background-color: aliceblue;
+  height: 50px;
+  opacity: 100%;
 }
 
 /* --- REVIEWS --- */
@@ -317,7 +317,10 @@ span::before {
     max-width: 400px;
   }
 
-  .handy-img {min-width: 400px;}
+  .handy-img {
+    min-width: 500px;
+    margin: 0rem;
+  }
   
   .reviewblock {
     flex-direction: row;
