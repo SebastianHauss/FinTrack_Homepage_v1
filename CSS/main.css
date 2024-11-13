@@ -11,6 +11,7 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   background-color: #080710;
   min-height: 100vh;
   margin: 0;
@@ -80,7 +81,7 @@ footer {
 }
 
 
-/* CSS */
+/* --- Login Button --- */
 .button-86 {
   all: unset;
   width: 100px;
@@ -205,5 +206,4 @@ span::before {
   100% {
     content: "Personalized Financial Advice: Receive tailored recommendations based on your spending habits and goals.";
   }
-
 }
