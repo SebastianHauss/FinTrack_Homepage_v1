@@ -156,14 +156,14 @@ footer {
 
 /* --- Animations --- */
 span::before {
-  content: "1";
-  animation: animate infinite 3s;
+  content: "Track Spending Easily: Monitor your expenses in real-time for better budgeting.";
+  animation: animate infinite 15s;
   padding-left: 10px;
 }
 
 @keyframes animate {
   0% {
-    content: "1";
+    content: "Track Spending Easily: Monitor your expenses in real-time for better budgeting.";
 }
 
 50% {
