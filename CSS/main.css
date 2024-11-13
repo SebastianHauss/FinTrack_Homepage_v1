@@ -153,3 +153,24 @@ footer {
   top: 0;
   width: 100%;
 }
+
+/* --- Animations --- */
+span::before {
+  content: "1";
+  animation: animate infinite 3s;
+  padding-left: 10px;
+}
+
+@keyframes animate {
+  0% {
+    content: "1";
+}
+
+50% {
+    content: "2";
+}
+
+75% {
+    content: "3";
+}
+}
