@@ -232,5 +232,4 @@ footer {
 span::before {
   content: "Track Spending Easily: Monitor your expenses in real-time for better budgeting.";
   animation: fadeAnimation infinite 90s ease-in-out;
-  padding: 10px;
 }
