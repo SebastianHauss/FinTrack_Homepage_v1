@@ -163,14 +163,18 @@ span::before {
 
 @keyframes animate {
   0% {
-    content: "Track Spending Easily: Monitor your expenses in real-time for better budgeting.";
-}
+    content: "Set Financial Goals: Define and reach savings goals with personalized milestones.";
+  }
 
-50% {
-    content: "2";
-}
+  25% {
+    
+  }
 
-75% {
-    content: "3";
-}
+  50% {
+    content: "Insightful Analytics: Get insights into spending patterns with simple charts.";
+  }
+
+  75% {
+    content: "Daily Tips for Saving: Receive actionable tips for smarter financial decisions every day.";
+  }
 }
