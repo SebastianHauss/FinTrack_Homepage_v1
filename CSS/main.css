@@ -73,15 +73,18 @@ h1 {
 h2 {
   margin: 1rem;
 }
+
 #reviews {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .reviewblock {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .reviewbox {
   font-size: 0.9rem;
   margin: 10px;
@@ -91,12 +94,10 @@ h2 {
   padding: 20px;
   max-width: 400px;
 }
-.reviewbox:hover {
-  box-shadow: 0px 0px 9px   #6bff90a7;
-}
-.five_star {
-  width: 100px;
-}
+
+.reviewbox:hover {box-shadow: 0px 0px 9px   #6bff90a7;}
+
+.five_star {width: 100px;}
 
 footer {
   color: white;
@@ -256,4 +257,26 @@ footer {
 span::before {
   content: "Track Spending Easily: Monitor your expenses in real-time for better budgeting.";
   animation: fadeAnimation infinite 90s ease-in-out;
+  padding-left: 16px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .desktop-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .head-text {
+    text-align: left;
+    max-width: 400px;
+  }
+
+  .handy-img {min-width: 350px;}
+  
+  .reviewblock {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
