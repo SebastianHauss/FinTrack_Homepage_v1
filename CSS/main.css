@@ -314,7 +314,7 @@ span::before {
     max-width: 400px;
   }
 
-  .handy-img {min-width: 350px;}
+  .handy-img {min-width: 400px;}
   
   .reviewblock {
     flex-direction: row;
