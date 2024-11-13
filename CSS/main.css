@@ -180,73 +180,80 @@ footer {
 }
 
 /* --- Animations --- */
+@keyframes fadeAnimation {
+  0%, 10% {
+    content: "Track Spending Easily.";
+    opacity: 1;
+  }
+  8%, 12% {
+    opacity: 0;
+  }
+  10%, 20% {
+    content: "Set Financial Goals.";
+    opacity: 1;
+  }
+  18%, 22% {
+    opacity: 0;
+  }
+  20%, 30% {
+    content: "Insightful Analytics.";
+    opacity: 1;
+  }
+  28%, 32% {
+    opacity: 0;
+  }
+  30%, 40% {
+    content: "Daily Tips for Saving.";
+    opacity: 1;
+  }
+  38%, 42% {
+    opacity: 0;
+  }
+  40%, 50% {
+    content: "Visualize Your Progress.";
+    opacity: 1;
+  }
+  48%, 52% {
+    opacity: 0;
+  }
+  50%, 60% {
+    content: "Secure and Private.";
+    opacity: 1;
+  }
+  58%, 62% {
+    opacity: 0;
+  }
+  60%, 70% {
+    content: "Budget Alerts.";
+    opacity: 1;
+  }
+  68%, 72% {
+    opacity: 0;
+  }
+  70%, 80% {
+    content: "Gamified Achievements.";
+    opacity: 1;
+  }
+  78%, 82% {
+    opacity: 0;
+  }
+  80%, 90% {
+    content: "Income and Expense Overview.";
+    opacity: 1;
+  }
+  88%, 92% {
+    opacity: 0;
+  }
+  90%, 100% {
+    content: "Personalized Financial Advice.";
+    opacity: 1;
+  }
+  98%, 2% {
+    opacity: 0;
+  }
+}
+
 span::before {
   content: "Track Spending Easily: Monitor your expenses in real-time for better budgeting.";
-  animation: animate infinite 40s;
-  display: block;
-}
-
-@keyframes animate {
-  0% {
-    content: "Track Spending Easily: Monitor your expenses in real-time for better budgeting.";
-  }
-
-  10% {
-    content: "Set Financial Goals: Define and reach savings goals with personalized milestones.";
-  }
-
-  20% {
-    content: "Insightful Analytics: Get insights into spending patterns with simple charts.";
-  }
-
-  30% {
-    content: "Daily Tips for Saving: Receive actionable tips for smarter financial decisions every day.";
-  }
-
-  40% {
-    content: "Visualize Your Progress: Watch your financial health improve with intuitive visuals.";
-  }
-
-  50% {
-    content: "Secure and Private: Bank-level security ensures your data is safe.";
-  }
-
-  60% {
-    content: "Budget Alerts: Get notifications to stay within budget effortlessly.";
-  }
-
-  70% {
-    content: "Gamified Achievements: Reach milestones and earn badges for financial progress.";
-  }
-
-  80% {
-    content: "Income and Expense Overview: Track all your income and expenses in one place.";
-  }
-
-  90% {
-    content: "Plan Future Expenses: Set aside funds for future needs with planned budgeting.";
-  }
-
-  100% {
-    content: "Personalized Financial Advice: Receive tailored recommendations based on your spending habits and goals.";
-  }
-}
-@media only screen and (min-width: 1000px) {
-  .desktop-view {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
-  }
-  .head-text {
-    text-align: left;
-    max-width: 400px;
-  }
-  .handy-img {
-    min-width: 350px;
-  }
-  .reviewblock {
-    flex-direction: row;
-    justify-content: center;
-  }
+  animation: fadeAnimation infinite 90s ease-in-out;
 }
