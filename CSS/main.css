@@ -246,9 +246,20 @@ footer {
     content: "Personalized Financial Advice.";
     opacity: 1;
   }
+
+  98%, 100% {
+    opacity: 0;
+  }
+
   98%, 2% {
     opacity: 0;
   }
+
+  100% {
+    content: "Track Spending Easily.";
+    opacity: 1;
+  }
+
 }
 
 span::before {
