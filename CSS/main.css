@@ -51,9 +51,7 @@ td {
   /*padding-left: 0.8rem;*/
 }
 
-#td-grow {
-  width: 100vw;
-}
+#td-grow { width: 100vw; }
 
 .img-container {
   display: flex;
@@ -67,21 +65,24 @@ td {
 }
 
 h1 {
+  font-size: 3rem;
   margin: 1rem;
 }
 
-h2 {
-  margin: 1rem;
-}
+h2 { margin: 1rem; }
+
+/* --- REVIEWS --- */
 #reviews {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .reviewblock {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .reviewbox {
   font-size: 0.9rem;
   margin: 10px;
@@ -91,19 +92,18 @@ h2 {
   padding: 20px;
   max-width: 400px;
 }
+
 .reviewbox:hover {
   box-shadow: 0px 0px 9px   #6bff90a7;
 }
-.five_star {
-  width: 100px;
-}
+
+.five_star { width: 100px; }
 
 footer {
   color: white;
   text-align: center;
   padding: 1rem;
 }
-
 
 /* --- Login Button --- */
 .button-86 {
