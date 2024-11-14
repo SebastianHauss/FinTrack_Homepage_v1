@@ -23,9 +23,7 @@
         </a></td>
       </tr>
     </table>
-
   </header>
-
 
   <main class="content">
     <div class="background">
@@ -34,49 +32,47 @@
     </div>
 
     <form onsubmit="login(); return false">
-        <h3>Login Here</h3>
+      <h3>Login Here</h3>
 
-        <label for="username">Username</label>
-        <input type="text" placeholder="Username or E-Mail" id="username" required>
+      <label for="username">Username</label>
+      <input type="text" placeholder="Username or E-Mail" id="username" required>
 
-        <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password" required>
+      <label for="password">Password</label>
+      <input type="password" placeholder="Password" id="password" required>
 
-        <div id="message" class="message"></div> 
+      <div id="message" class="message"></div> 
 
-        <button type="submit">Log In</button>
+      <button type="submit">Log In</button>
 
-        <div class="social">
-          <div class="go"><i class="fab fa-google"></i> Google</div>
-          <div class="fb"><i class="fab fa-facebook"></i> FB</div>
-        </div>
+      <div class="social">
+        <div class="go"><i class="fab fa-google"></i> Google</div>
+        <div class="fb"><i class="fab fa-facebook"></i> FB</div>
+      </div>
     </form>
-
 
     <script>
       function login() {
-          // Werte der Eingabefelder auslesen
-          const username = document.getElementById("username").value;
-          const password = document.getElementById("password").value;
-          
-          // Eingaben überprüfen
-          const messageElement = document.getElementById("message");
-          if (username === "admin" && password === "1234") {
-              messageElement.innerText = "Login successful!";
-              messageElement.style.color = "green";
+        // Werte der Eingabefelder auslesen
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        
+        // Eingaben überprüfen
+        const messageElement = document.getElementById("message");
+        if (username === "admin" && password === "1234") {
+            messageElement.innerText = "Login successful!";
+            messageElement.style.color = "green";
 
-              setTimeout(() => {
-                  window.location.href ="../index.html"; // Bei erfolgreicher Prüfung zurück auf Homepage leiten
-              }, 2000);
+            setTimeout(() => {
+                window.location.href ="../index.html"; // Bei erfolgreicher Prüfung zurück auf Homepage leiten
+            }, 2000);
 
-          } else {
-              messageElement.innerText = "Wrong Username or Password.";
-              messageElement.style.color = "red";
-          }
+        } else {
+            messageElement.innerText = "Wrong Username or Password.";
+            messageElement.style.color = "red";
+        }
       }
     </script>
-
-</main>
+  </main>
 
   <footer>
     <p>© 2024 FinTrack. Alle Rechte vorbehalten.</p>

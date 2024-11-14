@@ -112,9 +112,7 @@ body{
   position: relative;
 }
 
-.content {
-  flex-grow: 1;
-}
+.content { flex-grow: 1; }
 
 .message {
   text-align: center;
@@ -122,9 +120,9 @@ body{
   margin-bottom: 0.3rem;
   margin-top: 0.3rem;
   font-weight: bold;
-  color: transparent; /* Initial transparent */
-  height: 20px; /* Platz für die Nachricht reservieren */
-  transition: color 0.3s ease; /* Weiche Farbänderung bei Anzeige */
+  color: transparent;
+  height: 20px;
+  transition: color 0.3s ease;
 }
 
 img, video {
@@ -144,7 +142,7 @@ p {
 }
 
 /* --- LOGIN FORM --- */
-.background{
+.background {
     width: 430px;
     height: 520px;
     position: absolute;
@@ -153,14 +151,14 @@ p {
     top: 50%;
 }
 
-.background .shape{
+.background .shape {
     height: 200px;
     width: 200px;
     position: absolute;
     border-radius: 50%;
 }
 
-.shape:first-child{
+.shape:first-child {
     background: linear-gradient(
         #fff85b,
         #f09819
@@ -169,7 +167,7 @@ p {
     top: -80px;
 }
 
-.shape:last-child{
+.shape:last-child {
     background: linear-gradient(
         to right,
         #8bb963,
@@ -179,7 +177,7 @@ p {
     bottom: -80px;
 }
 
-form{
+form {
     height: 520px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
@@ -201,20 +199,20 @@ form *{
     outline: none;
     border: none;
 }
-form h3{
+form h3 {
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
     text-align: center;
 }
 
-label{
+label {
     display: block;
     margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
 }
-input{
+input {
     display: block;
     height: 50px;
     width: 100%;
@@ -225,10 +223,12 @@ input{
     font-size: 14px;
     font-weight: 300;
 }
-::placeholder{
+
+::placeholder {
     color: #e5e5e5;
 }
-button{
+
+button {
     margin-top: 20px;
     width: 100%;
     background-color: #ffffff;
@@ -241,14 +241,16 @@ button{
     align-items: center;
     text-align: center;
 }
-.social{
+
+.social {
   margin-top: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-.social div{
+
+.social div {
   
   width: 150px;
   border-radius: 3px;
@@ -257,13 +259,16 @@ button{
   color: #eaf0fb;
   text-align: center;
 }
-.social div:hover{
+
+.social div:hover {
   background-color: rgba(255,255,255,0.47);
 }
-.social .fb{
+
+.social .fb {
   margin-left: 25px;
 }
-.social i{
+
+.social i {
   margin-right: 4px;
 }
 
