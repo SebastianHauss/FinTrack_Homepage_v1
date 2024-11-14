@@ -141,6 +141,11 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 /* --- LOGIN FORM --- */
 .background {
     width: 430px;

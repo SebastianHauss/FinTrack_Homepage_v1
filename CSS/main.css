@@ -101,6 +101,10 @@ h2 { margin: 1rem; }
 
 h3 { margin-bottom: 0.75rem; }
 
+a {
+  text-decoration: none;
+}
+
 /* --- USECASES --- */
 #usecases {
   display: flex;
