@@ -70,6 +70,7 @@ td {
 }
 
 #handy-img {
+  
   width: 300px;
   height: auto;
   margin: 1rem;
@@ -96,13 +97,13 @@ h3 { margin-bottom: 0.75rem; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .usecase-boxes {
   margin: 10px;
   font-size: 0.9rem;
-  background:linear-gradient(to top,rgba(174, 242, 192, 0.13), rgba(35, 40, 37, 0.423), rgba(21, 21, 21, 0.815), rgba(7, 7, 7));
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
   border: solid thin #3b4252;
   padding: 20px;
@@ -110,7 +111,7 @@ h3 { margin-bottom: 0.75rem; }
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.usecase-boxes:hover {box-shadow: 0px 0px 9px #a3be8c;}
+.usecase-boxes:hover {box-shadow: 0px 0px 9px #fff85b;}
 
 #strich-icon {
   margin: 0;
