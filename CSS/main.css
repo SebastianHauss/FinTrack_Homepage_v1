@@ -54,6 +54,7 @@ td {
 }
 
 #FinTrack-logo {
+  margin-top: -10px;
   width: 900px;
   height: auto;
   padding-left: 40px;
@@ -62,6 +63,7 @@ td {
 
 @media (max-width: 600px) {
   #FinTrack-logo {
+    margin-top: -20px;
     width: 360px;
     height: auto;
     padding-left: 10px;
@@ -362,5 +364,8 @@ span::before {
   .reviewblock {
     flex-direction: row;
     justify-content: center;
+  }
+  .reviewbox {
+    min-height: 230px;
   }
 }
