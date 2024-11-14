@@ -73,6 +73,12 @@ td {
   width: 300px;
   height: auto;
   margin: 1rem;
+  margin-top: 0;
+}
+
+#qr-img {
+  max-width: 0px;
+  margin: 0rem;
 }
 
 h1 {
@@ -324,8 +330,9 @@ span::before {
 }
 
 @media only screen and (min-width: 1000px) {
-  .desktop-view {
+  .qr-logo {
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
@@ -336,9 +343,19 @@ span::before {
     max-width: 400px;
   }
 
+  #FinTrack-logo {
+    margin-bottom: -20px;
+  }
+
   .handy-img {
     min-width: 500px;
     margin: 0rem;
+  }
+
+  #qr-img {
+    max-width: 200px;
+    margin: 0rem;
+    border-radius: 10px;
   }
   
   .reviewblock {
