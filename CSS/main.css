@@ -39,6 +39,12 @@ main {
   color: white;
 }
 
+.playstore-dl {
+  position: relative;
+  width: 250px;
+  height: auto;
+}
+
 td { color: black; }
 
 #td-grow { width: 100vw; }
@@ -240,7 +246,14 @@ footer {
 /* --- Animations --- */
 .changing-text {
   font-size: 2rem;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .changing-text {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+  }
 }
 
 @keyframes fadeAnimation {
