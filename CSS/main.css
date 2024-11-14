@@ -75,8 +75,8 @@ td {
   }
 }
 
-.handy-img {
-  width: 250px;
+#handy-img {
+  width: 300px;
   height: auto;
   margin: 1rem;
 }
