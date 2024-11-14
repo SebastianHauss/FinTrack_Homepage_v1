@@ -346,33 +346,33 @@ span::before {
   padding-left: 16px;
 }
 
+@media (min-width: 800px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .changing-text {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+  }
+
+  #FinTrack-logo { 
+    width: 700px;
+    height: auto;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
-  .qr-logo {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
-  }
 
-  .head-text {
-    text-align: left;
-    max-width: 400px;
+  #FinTrack-logo { 
+    margin-bottom: -20px; 
   }
-
-  #FinTrack-logo { margin-bottom: -20px; }
 
   .handy-img {
     min-width: 500px;
     margin: 0rem;
   }
 
-  #qr-img {
-    max-width: 200px;
-    margin: 0rem;
-    border-radius: 10px;
-  }
-  
   .reviewblock {
     flex-direction: row;
     justify-content: center;
@@ -380,3 +380,4 @@ span::before {
 
   .reviewbox { min-height: 230px; }
 }
+
