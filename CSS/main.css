@@ -34,6 +34,12 @@ header {
   z-index: 10;
 } 
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 main {
   margin-top: 100px;
   color: white;
@@ -126,13 +132,6 @@ a {
 }
 
 .usecase-boxes:hover {box-shadow: 0px 0px 9px #fff85b;}
-
-#strich-icon {
-  margin: 0;
-  padding: 0;
-  height: 50px;
-  opacity: 100%;
-}
 
 /* --- REVIEWS --- */
 #trusted-by { margin-top: 30px; }
@@ -239,12 +238,6 @@ footer {
 .button-86:active::after {
   transition: 0s;
   transform: translate(0, 5%);
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 /* --- Animations --- */
