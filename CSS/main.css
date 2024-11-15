@@ -85,11 +85,6 @@ td { color: black; }
   margin-top: 0;
 }
 
-#qr-img {
-  max-width: 0px;
-  margin: 0rem;
-}
-
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
